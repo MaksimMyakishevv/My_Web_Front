@@ -28,7 +28,7 @@ export default function Headermenu() {
           <Image src="Images/Group 1089.svg" width={22} height={20} alt="Not found" />
           </div>
           <button className={styles.iconburg} onClick={handleClick1}>
-          <Image src="Images/burgmenu.svg" width={22} height={20} alt="Not found" />
+          <Image src={menuIsOpen1 ? 'Images/nion.svg' : 'Images/burgmenu.svg'} width={22} height={20} alt="Not found" />
           </button>
           <ul className={styles.headermenu__columns}>
             <li className={styles.header__item}>

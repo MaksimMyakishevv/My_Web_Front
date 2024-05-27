@@ -1,0 +1,99 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-image: url(/Images/authbut.svg);
+    background-size: cover;
+    width: 227px;
+    height: 140px;
+    top: 71px;
+    left: 80.5%;
+    gap: 10px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: "MyFont1";
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 11.37px;
+    text-align: center;
+    transition: background-color 0.3s;
+
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    /* Цвет кнопки при наведении */
+}
+
+.button:not(:hover) {
+    background-color: white;
+    color: black;
+    /* Цвет кнопки при НЕ наведении */
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:767px){
+    .main{
+        display: none;
+    }
+
+}
+@media (min-width: 768px) and (max-width:934px) {
+    .main {
+        width: 113px;
+        height: 70px;
+        top: 60px;
+        left: 78.75%;
+        gap: 5px;
+    }
+    
+    .button {
+        width: 65px;
+        height: 20px;
+        font-size: 6px;
+        font-weight: 600;
+        line-height: 5px;
+    
+    }
+    
+    
+}
+
+@media (min-width: 935px) and (max-width: 1100px) {
+    .main {
+        width: 169px;
+        height: 95px;
+        top: 60px;
+        left: 80%;
+        gap: 8px;
+    }
+    
+    .button {
+        width: 97px;
+        height: 30px;
+        font-size: 9px;
+        font-weight: 700;
+        line-height: 10px;
+    
+    }
+    
+
+}
+
+@media (min-width: 1101px) and (max-width: 1320px) {
+    .main {
+        left: 78%;
+    }
+
+}

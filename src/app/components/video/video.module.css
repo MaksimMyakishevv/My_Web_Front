@@ -1,0 +1,171 @@
+.main {
+    position: relative;
+    width: 100%;
+}
+
+.main1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 200px;
+    gap: 15%;
+}
+
+.text {
+    margin-top: 78px;
+    width: 396px;
+    height: 265px;
+}
+
+.text1 {
+    width: 100%;
+    height: 24px;
+    font-family: "MyFont";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+
+}
+
+.text2 {
+    margin-top: 47px;
+    width: 100%;
+    font-family: "MyFont1";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.video {
+    width: 630px;
+    height: 398px;
+    background-image: url(/Images/video.svg);
+    background-size: cover;
+    
+}
+@media (max-width:767px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .main1{
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 2.5%;
+        justify-content: center;
+        align-items: center;
+    }
+    .text {
+        margin-top: 20px;
+        width: 326px;
+        height: 166px;
+    }
+    .text1 {
+        height: 22px;
+        font-family: "MyFont";
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    
+    }
+    .text2 {
+        margin-top: 30px;
+        font-family: "MyFont1";
+        font-size: 10px;
+        font-weight: 900;
+        line-height: 20px;
+        text-align: center;
+    
+    }
+    .video {
+        width: 320px;
+        height: 230px;
+        background-position: center;
+        
+    }
+
+}
+@media (min-width: 768px) and (max-width:934px) {
+    
+    .main1 {
+        margin-left: 12%;
+        margin-top: 100px;
+        gap: 16%;
+    }
+    
+    .text {
+        margin-top: 39px;
+        width: 200px;
+        height: 132px;
+    }
+    
+    .text1 {
+        height: 12px;
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 15px;
+    
+    }
+    
+    .text2 {
+        margin-top: 23px;
+        font-size: 7px;
+        font-weight: 700;
+        line-height: 20px;
+    
+    }
+    
+    .video {
+        width: 315px;
+        height: 200px;
+        
+    }
+    
+}
+@media (min-width: 935px) and (max-width: 1100px) {
+    .main1 {
+        margin-left: 7%;
+        margin-top: 160px;
+        gap: 16%;
+    }
+    
+    .text {
+        margin-top: 58px;
+        width: 300px;
+        height: 198px;
+    }
+    
+    .text1 {
+        height: 18px;
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 20px;
+    
+    }
+    
+    .text2 {
+        margin-top: 34px;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 25px;
+    
+    }
+    
+    .video {
+        width: 470px;
+        height: 300px;
+        
+    }
+    
+}
+@media (min-width: 1101px) and (max-width: 1320px) {
+    .main1 {
+        margin-left: 4%;
+        gap: 10%;
+    }
+
+}

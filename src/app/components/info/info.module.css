@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'MyFontt1';
+    src: url('/src/app/components/main/Poppins-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'My';
+    src: url('./Poppins-Bold.ttf') format('truetype');
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    min-height: 40em;
+}
+
+.min1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 70px;
+}
+
+.img1 {
+    display: none;
+}
+
+.img2 {
+    display: none;
+}
+
+.img {
+    width: 629px;
+    height: 629px;
+    top: 77px;
+    left: 28%;
+
+}
+
+.text1 {
+
+    position: absolute;
+    text-align: right;
+    top: 95px;
+    left: 15%;
+
+}
+
+.text2 {
+    position: absolute;
+    margin-top: 475px;
+    text-align: right;
+    top: 1px;
+    left: 11%;
+
+}
+
+.text3 {
+    position: absolute;
+    margin-top: 170px;
+    text-align: left;
+    left: 73%;
+    top: 5px;
+}
+
+.og {
+    font-family: 'My', sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+.txog {
+    margin-top: 20px;
+    font-family: 'MyFont1', sans-serif;
+    font-size: 10px;
+    color: black;
+    font-weight: 900;
+    line-height: 23px;
+}
+
+@media (max-width:767px) {
+    .main {
+        width: 100%;
+        height: auto;
+        min-height: 1346px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F9FAFE;
+    }
+
+    .min1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .img1 {
+        display: flex;
+        width: 365px;
+        height: 417px;
+        top: 0px;
+    }
+
+    .img2 {
+        display: flex;
+        width: 35px;
+        height: 35px;
+    }
+
+    .mob {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 268px;
+        height: 772px;
+        gap: 20px;
+    }
+
+    .img {
+        display: none;
+
+    }
+
+    .text1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 0px;
+        left: 0%;
+        gap: 20px;
+
+    }
+
+    .text2 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0px;
+        left: 0%;
+        top: 0px;
+        gap: 20px;
+
+
+    }
+
+    .text3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 0px;
+        left: 0%;
+        top: 0px;
+        gap: 20px;
+    }
+
+    .og {
+        font-family: 'My', sans-serif;
+        color: black;
+        font-size: 18px;
+        line-height: 12px;
+
+    }
+
+    .txog {
+        margin-top: 0px;
+        font-family: 'MyFont1', sans-serif;
+        font-size: 10px;
+        color: black;
+        font-weight: 900;
+        line-height: 24px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width:934px) {
+    .main {
+        min-height: 20em;
+    }
+
+    .min1 {
+        margin-top: 35px;
+    }
+
+    .img {
+        width: 300px;
+        height: 300px;
+        left: 28%;
+
+    }
+
+    .text1 {
+        top: 46px;
+        left: 20%;
+
+    }
+
+    .text2 {
+        margin-top: 225px;
+        left: 13%;
+
+    }
+
+    .text3 {
+        margin-top: 77px;
+        left: 69%;
+    }
+
+    .og {
+        font-size: 9px;
+
+    }
+
+    .txog {
+        margin-top: 8px;
+        font-size: 6px;
+        font-weight: 600;
+        line-height: 9px;
+    }
+
+}
+
+@media (min-width: 935px) and (max-width: 1100px) {
+    .main {
+        min-height: 30em;
+    }
+
+    .min1 {
+        margin-top: 50px;
+    }
+
+    .img {
+        width: 450px;
+        height: 450px;
+        left: 28%;
+
+    }
+
+    .text1 {
+        top: 68px;
+        left: 16%;
+
+    }
+
+    .text2 {
+        margin-top: 340px;
+        left: 11%;
+
+    }
+
+    .text3 {
+        margin-top: 117px;
+        left: 71%;
+    }
+
+    .og {
+        font-size: 14px;
+
+    }
+
+    .txog {
+        margin-top: 8px;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 13px;
+    }
+
+
+}
+
+@media (min-width: 1101px) and (max-width: 1320px) {
+
+    .text1 {
+        left: 10%;
+
+    }
+
+    .text2 {
+        left: 7.5%;
+
+    }
+
+    .text3 {
+        left: 74%;
+    }
+
+}

@@ -1,0 +1,291 @@
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.main1 {
+    margin-left: 10%;
+    margin-top: 106px;
+}
+
+.text {
+    font-family: "MyFont";
+    width: 311px;
+    height: 24px;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: black;
+}
+
+.text1 {
+    margin-top: 37px;
+    width: 689px;
+    height: 47px;
+    font-family: "MyFont1";
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: left;
+    color: #939393;
+
+
+}
+
+.productscroll {
+    display: flex;
+    flex-direction: row;
+    margin-top: 83px;
+    width: 100%;
+    height: 476px;
+    gap: 80px;
+}
+
+.card {
+    width: 334px;
+    height: 476px;
+}
+
+.img {
+    width: 100%;
+    height: 393px;
+    background-size: cover;
+    background-image: url(/Images/pr.svg);
+}
+
+.name {
+    margin-top: 27px;
+    width: 100%;
+    height: 12px;
+    font-family: "MyFont1";
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 12px;
+    text-align: center;
+
+}
+
+.price {
+    margin-top: 23px;
+    width: 100%;
+    height: 22px;
+    font-family: "My";
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 25px;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 89px;
+    width: 208px;
+    height: 55px;
+    background-color: #735CFF;
+    color: #FFFFFF;
+    font-family: "MyFont1";
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 12px;
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .main{
+        height: 2000px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1 {
+        margin-top: 20px;
+        width: 208px;
+        height: 88px;
+        font-size: 9px;
+        font-weight: 800;
+        line-height: 24px;
+        text-align: center;
+    
+    
+    }
+    .text {
+        width: 100%;
+        height: 19px;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+    .productscroll {
+        margin-top: 25px;
+        flex-direction: column;
+        width: 100%;
+        height: 1530px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:934px) {
+    .main1 {
+        margin-left: 12%;
+        margin-top: 53px;
+    }
+
+    .text {
+        width: 155px;
+        height: 12px;
+        font-size: 21px;
+        font-weight: 200;
+        line-height: 15px;
+    }
+
+    .text1 {
+        margin-top: 18px;
+        width: 345px;
+        height: 23px;
+        font-size: 7px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .productscroll {
+        margin-top: 42px;
+        width: 100%;
+        height: 240px;
+        gap: 50px;
+    }
+
+    .card {
+        width: 170px;
+        height: 240px;
+    }
+
+    .img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .name {
+        margin-top: 13px;
+        width: 100%;
+        height: 6px;
+        font-size: 8px;
+        font-weight: 700;
+        line-height: 6px;
+
+    }
+
+    .price {
+        margin-top: 11px;
+        width: 100%;
+        height: 11px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .buttons {
+        margin-top: 45px;
+        width: 104px;
+        height: 27px;
+        font-size: 7px;
+        font-weight: 700;
+        line-height: 6px;
+        border-radius: 3px;
+    }
+
+
+}
+
+@media (min-width: 935px) and (max-width: 1100px) {
+    .main1 {
+        margin-left: 7%;
+        margin-top: 74px;
+    }
+
+    .text {
+        width: 232px;
+        height: 18px;
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .text1 {
+        margin-top: 27px;
+        width: 515px;
+        height: 34px;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 25px;
+    }
+
+    .productscroll {
+        margin-top: 63px;
+        width: 100%;
+        height: 360px;
+        gap: 75px;
+    }
+
+    .card {
+        width: 255px;
+        height: 360px;
+    }
+
+    .img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .name {
+        margin-top: 19px;
+        width: 100%;
+        height: 9px;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 9px;
+
+    }
+
+    .price {
+        margin-top: 16px;
+        width: 100%;
+        height: 16px;
+        font-size: 19px;
+        line-height: 20px;
+    }
+
+    .buttons {
+        margin-top: 67px;
+        width: 161px;
+        height: 40px;
+        font-size: 11px;
+        font-weight: 800;
+        line-height: 9px;
+        border-radius: 4px;
+    }
+
+
+}
+
+@media (min-width: 1101px) and (max-width: 1320px) {
+
+    .main1 {
+        margin-left: 4%;
+    }
+
+    .productscroll {
+        gap: 60px;
+    }
+}

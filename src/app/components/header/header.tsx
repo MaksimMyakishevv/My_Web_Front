@@ -10,7 +10,11 @@ import Burgmenu from "../burgmenu/burg";
 export default function Headermenu() {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
     const [menuIsOpen1, setMenuIsOpen1] = useState(false);
-    const token = localStorage.getItem('token');
+    let token = null
+    if (global?.window !== undefined){
+      localStorage.removeItem('token');
+      token = localStorage.getItem('token');
+    }
     const handleClick = () => {
       setMenuIsOpen((prevState) => !prevState);
     };
